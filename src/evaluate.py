@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from dataset import GazeDataset
 
 
-def pixel_to_degree(error_px, ppi=96, distance_cm=60):
+def pixel_to_degree(error_px, ppi=96, distance_cm=32.5):
     """
     ピクセル誤差を角度誤差に変換
 

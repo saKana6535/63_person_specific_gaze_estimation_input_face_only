@@ -5,7 +5,7 @@ data:
   labels_csv: "data/labels.csv"
   test_size: 0.2
   random_state: 42
-  augment: true  # データ拡張を使用するか
+  augment: false  # データ拡張は使用しない（論文・設計書に記載なし）
 
 # モデル設定
 model:
@@ -25,4 +25,4 @@ training:
 # 評価設定
 evaluation:
   ppi: 96  # モニタのPPI
-  distance_cm: 60  # 目とスクリーンの距離（cm）
+  distance_cm: 32.5  # 目とスクリーンの距離（cm）
