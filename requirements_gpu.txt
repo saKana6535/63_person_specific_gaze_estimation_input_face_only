@@ -1,0 +1,11 @@
+# GPU環境用の依存パッケージ
+# CUDA 12.x + cuDNN 8.9以上が必要
+
+tensorflow[and-cuda]>=2.15.0
+opencv-python
+numpy
+pandas
+pyyaml
+matplotlib
+scikit-learn
+Pillow
